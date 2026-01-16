@@ -1,9 +1,13 @@
-// Project: Fibbonacci Sequence
-// Professor: Ian O’Toole
-// Course ID: 202620
-// CRN: 23594
-// Semester: Spring 2026
-// Programmer: Johnathan McAllister
+/**
+ * @Title: Fibbonacci Sequence
+ * @Author Johnathan McAllister
+ * @Version 1.26.01.15
+ *
+ * Professor: Ian O’Toole
+ * Course ID: 202620
+ * CRN: 23594
+ * Semester: Spring 2026
+ */
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -12,6 +16,10 @@ public class Main {
 
     public final static Scanner input = new Scanner(System.in);
 
+    /**
+     * Requests value from user calls the recursive function fib, and then displays the results
+     * @param args
+     */
     static void main(String[] args) {
 
         int value;
@@ -32,6 +40,12 @@ public class Main {
 
     }
 
+    /**
+     * Calculates the value in the nth position
+     *
+     * @param n the given positon in the fibanacci sequence
+     * @return the value at the given position
+     */
     public static int fib(int n) {
         if (n == 0)
             return 0;
