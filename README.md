@@ -9,7 +9,7 @@
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white) ![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)
 
 ## Project Description
-The Purpose of this project is to demonstrate the use of a recursive method that performs the neccessary calculations to determine the expected number in a fibanocci sequence given a starting position.
+The purpose of this project is to demonstrate the use of a recursive method to calculate the expected value in a Fibonacci sequence based on a given starting position.
 
 ## System Requirements/Constraints
 * A recursive static method that returns the nth term in the Fibonacci sequence
