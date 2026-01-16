@@ -16,10 +16,7 @@ public class Main {
 
     public final static Scanner input = new Scanner(System.in);
 
-    /**
-     * Requests value from user calls the recursive function fib, and then displays the results
-     * @param args
-     */
+
     static void main(String[] args) {
 
         int value;
